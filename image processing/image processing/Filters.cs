@@ -81,6 +81,68 @@ namespace Filters_Peryashkin
             return Color.FromArgb(newR, newG, newB);
         }
     }
+    public class LinearHistogramStretchFilter : Filters
+    {
+        protected override Color calculateNewPixelColor(Bitmap sourceImage, int x, int y)
+        {
+ 
+            return sourceImage.GetPixel(x, y);
+        }
+
+        public override Bitmap processImage(Bitmap sourceImage, BackgroundWorker worker)
+        {
+            int width = sourceImage.Width;
+            int height = sourceImage.Height;
+
+            int rMin = 255, rMax = 0;
+            int gMin = 255, gMax = 0;
+            int bMin = 255, bMax = 0;
+
+            for (int y = 0; y < height; y++)
+            {
+                for (int x = 0; x < width; x++)
+                {
+                    Color c = sourceImage.GetPixel(x, y);
+
+                    if (c.R < rMin) rMin = c.R;
+                    if (c.R > rMax) rMax = c.R;
+
+                    if (c.G < gMin) gMin = c.G;
+                    if (c.G > gMax) gMax = c.G;
+
+                    if (c.B < bMin) bMin = c.B;
+                    if (c.B > bMax) bMax = c.B;
+                }
+            }
+
+            Bitmap result = new Bitmap(width, height);
+
+            for (int y = 0; y < height; y++)
+            {
+                if (worker != null && worker.WorkerReportsProgress)
+                    worker.ReportProgress((int)((float)y / height * 100));
+
+                for (int x = 0; x < width; x++)
+                {
+                    Color c = sourceImage.GetPixel(x, y);
+
+                    int r = (c.R - rMin) * 255 / Math.Max(1, rMax - rMin);
+                    int g = (c.G - gMin) * 255 / Math.Max(1, gMax - gMin);
+                    int b = (c.B - bMin) * 255 / Math.Max(1, bMax - bMin);
+
+                    r = Clamp(r, 0, 255);
+                    g = Clamp(g, 0, 255);
+                    b = Clamp(b, 0, 255);
+
+                    result.SetPixel(x, y, Color.FromArgb(r, g, b));
+                }
+            }
+
+            return result;
+        }
+    }
+
+
 
 
     class InvertFilter : Filters
@@ -416,17 +478,27 @@ namespace Filters_Peryashkin
     }
     public abstract class MorphologyFilter : Filters
     {
-        protected bool[,] mask;
+        // Сделаем маску публичным свойством
+        public bool[,] Mask { get; protected set; }
         protected int radiusX;
         protected int radiusY;
 
         public MorphologyFilter(bool[,] mask)
         {
-            this.mask = mask;
+            this.Mask = mask;
             radiusX = mask.GetLength(0) / 2;
             radiusY = mask.GetLength(1) / 2;
         }
+
+        // Метод для изменения маски
+        public void SetMask(bool[,] newMask)
+        {
+            Mask = newMask;
+            radiusX = newMask.GetLength(0) / 2;
+            radiusY = newMask.GetLength(1) / 2;
+        }
     }
+
     public class Dilation : MorphologyFilter
     {
         public Dilation(bool[,] mask) : base(mask) { }
@@ -442,7 +514,7 @@ namespace Filters_Peryashkin
                     int nx = Clamp(x + j, 0, sourceImage.Width - 1);
                     int ny = Clamp(y + i, 0, sourceImage.Height - 1);
 
-                    if (mask[j + radiusX, i + radiusY])
+                    if (Mask[j + radiusX, i + radiusY]) // Используем Mask
                     {
                         Color neighbor = sourceImage.GetPixel(nx, ny);
                         maxR = Math.Max(maxR, neighbor.R);
@@ -455,6 +527,7 @@ namespace Filters_Peryashkin
             return Color.FromArgb(maxR, maxG, maxB);
         }
     }
+
     public class Erosion : MorphologyFilter
     {
         public Erosion(bool[,] mask) : base(mask) { }
@@ -470,7 +543,7 @@ namespace Filters_Peryashkin
                     int nx = Clamp(x + j, 0, sourceImage.Width - 1);
                     int ny = Clamp(y + i, 0, sourceImage.Height - 1);
 
-                    if (mask[j + radiusX, i + radiusY])
+                    if (Mask[j + radiusX, i + radiusY]) // Используем Mask
                     {
                         Color neighbor = sourceImage.GetPixel(nx, ny);
                         minR = Math.Min(minR, neighbor.R);
@@ -483,35 +556,19 @@ namespace Filters_Peryashkin
             return Color.FromArgb(minR, minG, minB);
         }
     }
+
     public class Opening : Filters
     {
-        private bool[,] mask;
+        private MorphologyFilter morphologyFilter;
 
         public Opening(bool[,] mask)
         {
-            this.mask = mask;
+            morphologyFilter = new Erosion(mask); // можно заменить на любой фильтр
         }
 
-        protected override Color calculateNewPixelColor(Bitmap sourceImage, int x, int y)
+        public void ChangeMask(bool[,] newMask)
         {
-            return Color.Black; // не используется
-        }
-
-        public override Bitmap processImage(Bitmap sourceImage, BackgroundWorker worker)
-        {
-            var erosion = new Erosion(mask);
-            var dilation = new Dilation(mask);
-            var eroded = erosion.processImage(sourceImage, worker);
-            return dilation.processImage(eroded, worker);
-        }
-    }
-    public class Closing : Filters
-    {
-        private bool[,] mask;
-
-        public Closing(bool[,] mask)
-        {
-            this.mask = mask;
+            morphologyFilter.SetMask(newMask);
         }
 
         protected override Color calculateNewPixelColor(Bitmap sourceImage, int x, int y)
@@ -521,12 +578,39 @@ namespace Filters_Peryashkin
 
         public override Bitmap processImage(Bitmap sourceImage, BackgroundWorker worker)
         {
-            var dilation = new Dilation(mask);
-            var erosion = new Erosion(mask);
-            var dilated = dilation.processImage(sourceImage, worker);
+            var eroded = morphologyFilter.processImage(sourceImage, worker);
+            var dilation = new Dilation(morphologyFilter.Mask); // Если маска изменилась
+            return dilation.processImage(eroded, worker);
+        }
+    }
+
+    public class Closing : Filters
+    {
+        private MorphologyFilter morphologyFilter;
+
+        public Closing(bool[,] mask)
+        {
+            morphologyFilter = new Dilation(mask); // можно заменить на любой фильтр
+        }
+
+        public void ChangeMask(bool[,] newMask)
+        {
+            morphologyFilter.SetMask(newMask);
+        }
+
+        protected override Color calculateNewPixelColor(Bitmap sourceImage, int x, int y)
+        {
+            return Color.Black;
+        }
+
+        public override Bitmap processImage(Bitmap sourceImage, BackgroundWorker worker)
+        {
+            var dilated = morphologyFilter.processImage(sourceImage, worker);
+            var erosion = new Erosion(morphologyFilter.Mask); // Если маска изменилась
             return erosion.processImage(dilated, worker);
         }
     }
+
     public class TopHat : Filters
     {
         private bool[,] mask;
@@ -539,6 +623,11 @@ namespace Filters_Peryashkin
         protected override Color calculateNewPixelColor(Bitmap sourceImage, int x, int y)
         {
             return Color.Black;
+        }
+
+        public void ChangeMask(bool[,] newMask)
+        {
+            mask = newMask;
         }
 
         public override Bitmap processImage(Bitmap sourceImage, BackgroundWorker worker)
@@ -565,8 +654,9 @@ namespace Filters_Peryashkin
 
             return result;
         }
-
     }
+
+
     class MedianFilter : Filters
     {
         private int radius;
@@ -643,51 +733,26 @@ namespace Filters_Peryashkin
             return Color.FromArgb(rMax, gMax, bMax);
         }
     }
-    class GlowingEdgesProcess
+    public class GlowingEdgesFilter : Filters
     {
-        private Bitmap image;
-
-        public GlowingEdgesProcess(Bitmap image)
+        public override Bitmap processImage(Bitmap sourceImage, BackgroundWorker worker)
         {
-            this.image = image;
+            Filters medianFilter = new MedianFilter(3);
+            Bitmap result = medianFilter.processImage(sourceImage, worker);
+
+            Filters sobelFilter = new SobelFilter();
+            result = sobelFilter.processImage(result, worker);
+
+            Filters maxFilter = new MaxFilter(3);
+            result = maxFilter.processImage(result, worker);
+
+            return result;
         }
 
-        public Bitmap ApplyEffect()
+        protected override Color calculateNewPixelColor(Bitmap sourceImage, int x, int y)
         {
-            // Шаг 1: Применяем медианный фильтр
-            Filters medianFilter = new MedianFilter(3); // 3x3 фильтр
-            image = medianFilter.processImage(image, null);
-
-            // Шаг 2: Применяем фильтр Собеля для выделения краёв
-            Filters sobelFilter = new SobelFilter();
-            image = sobelFilter.processImage(image, null);
-
-            // Шаг 3: Применяем фильтр максимумов
-            Filters maxFilter = new MaxFilter(3); // 3x3 фильтр для максимумов
-            image = maxFilter.processImage(image, null);
-
-            return image;
+            return Color.Black;
         }
     }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 }
-
-
-
-
-

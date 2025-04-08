@@ -230,7 +230,8 @@ namespace image_processing
 
         private void светящиесяКраяToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            
+            Filters filter = new GlowingEdgesFilter();
+            backgroundWorker1.RunWorkerAsync(filter);
         }
         private void SaveImage(string filePath)
         {
@@ -239,7 +240,7 @@ namespace image_processing
                 Bitmap imageToSave = new Bitmap(pictureBox1.Image);
                 try
                 {
-                    imageToSave.Save(filePath, System.Drawing.Imaging.ImageFormat.Png); // Или можно выбрать другой формат
+                    imageToSave.Save(filePath, System.Drawing.Imaging.ImageFormat.Png); 
                     MessageBox.Show("Изображение успешно сохранено!", "Успех", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 }
                 catch (Exception ex)
@@ -250,21 +251,27 @@ namespace image_processing
         }
         private void сохранитьToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            // Создаем диалог для выбора места сохранения
+           
             SaveFileDialog saveFileDialog = new SaveFileDialog();
 
-            // Устанавливаем фильтры для типов файлов (например, PNG, JPG, BMP)
+            
             saveFileDialog.Filter = "PNG Image|*.png|JPEG Image|*.jpg|Bitmap Image|*.bmp";
 
-            // Открываем диалог и проверяем, была ли нажата кнопка "Сохранить"
+    
             if (saveFileDialog.ShowDialog() == DialogResult.OK)
             {
-                // Получаем путь к выбранному файлу
+              
                 string filePath = saveFileDialog.FileName;
 
-                // Сохраняем изображение в выбранный файл
+    
                 SaveImage(filePath);
             }
+        }
+
+        private void линейноеРастяженеиГистограммыToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Filters filter = new LinearHistogramStretchFilter();
+            backgroundWorker1.RunWorkerAsync(filter);
         }
     }
 }
