@@ -1,0 +1,68 @@
+C:\Users\User\Desktop\image processing\Visual of Tomograms\Visual of Tomograms\Visual of Tomograms\Visual of Tomograms\bin\Debug\net8.0-windows\Visual of Tomograms.exe
+C:\Users\User\Desktop\image processing\Visual of Tomograms\Visual of Tomograms\Visual of Tomograms\Visual of Tomograms\bin\Debug\net8.0-windows\Visual of Tomograms.deps.json
+C:\Users\User\Desktop\image processing\Visual of Tomograms\Visual of Tomograms\Visual of Tomograms\Visual of Tomograms\bin\Debug\net8.0-windows\Visual of Tomograms.runtimeconfig.json
+C:\Users\User\Desktop\image processing\Visual of Tomograms\Visual of Tomograms\Visual of Tomograms\Visual of Tomograms\bin\Debug\net8.0-windows\Visual of Tomograms.dll
+C:\Users\User\Desktop\image processing\Visual of Tomograms\Visual of Tomograms\Visual of Tomograms\Visual of Tomograms\bin\Debug\net8.0-windows\Visual of Tomograms.pdb
+C:\Users\User\Desktop\image processing\Visual of Tomograms\Visual of Tomograms\Visual of Tomograms\Visual of Tomograms\bin\Debug\net8.0-windows\OpenTK.Audio.OpenAL.dll
+C:\Users\User\Desktop\image processing\Visual of Tomograms\Visual of Tomograms\Visual of Tomograms\Visual of Tomograms\bin\Debug\net8.0-windows\OpenTK.Compute.dll
+C:\Users\User\Desktop\image processing\Visual of Tomograms\Visual of Tomograms\Visual of Tomograms\Visual of Tomograms\bin\Debug\net8.0-windows\OpenTK.Core.dll
+C:\Users\User\Desktop\image processing\Visual of Tomograms\Visual of Tomograms\Visual of Tomograms\Visual of Tomograms\bin\Debug\net8.0-windows\OpenTK.GLControl.dll
+C:\Users\User\Desktop\image processing\Visual of Tomograms\Visual of Tomograms\Visual of Tomograms\Visual of Tomograms\bin\Debug\net8.0-windows\OpenTK.Graphics.dll
+C:\Users\User\Desktop\image processing\Visual of Tomograms\Visual of Tomograms\Visual of Tomograms\Visual of Tomograms\bin\Debug\net8.0-windows\OpenTK.Input.dll
+C:\Users\User\Desktop\image processing\Visual of Tomograms\Visual of Tomograms\Visual of Tomograms\Visual of Tomograms\bin\Debug\net8.0-windows\OpenTK.Mathematics.dll
+C:\Users\User\Desktop\image processing\Visual of Tomograms\Visual of Tomograms\Visual of Tomograms\Visual of Tomograms\bin\Debug\net8.0-windows\OpenTK.Windowing.Common.dll
+C:\Users\User\Desktop\image processing\Visual of Tomograms\Visual of Tomograms\Visual of Tomograms\Visual of Tomograms\bin\Debug\net8.0-windows\OpenTK.Windowing.Desktop.dll
+C:\Users\User\Desktop\image processing\Visual of Tomograms\Visual of Tomograms\Visual of Tomograms\Visual of Tomograms\bin\Debug\net8.0-windows\OpenTK.Windowing.GraphicsLibraryFramework.dll
+C:\Users\User\Desktop\image processing\Visual of Tomograms\Visual of Tomograms\Visual of Tomograms\Visual of Tomograms\bin\Debug\net8.0-windows\runtimes\linux-x64\native\libglfw.so.3
+C:\Users\User\Desktop\image processing\Visual of Tomograms\Visual of Tomograms\Visual of Tomograms\Visual of Tomograms\bin\Debug\net8.0-windows\runtimes\osx-arm64\native\libglfw.3.dylib
+C:\Users\User\Desktop\image processing\Visual of Tomograms\Visual of Tomograms\Visual of Tomograms\Visual of Tomograms\bin\Debug\net8.0-windows\runtimes\osx-x64\native\libglfw.3.dylib
+C:\Users\User\Desktop\image processing\Visual of Tomograms\Visual of Tomograms\Visual of Tomograms\Visual of Tomograms\bin\Debug\net8.0-windows\runtimes\win-x64\native\glfw3.dll
+C:\Users\User\Desktop\image processing\Visual of Tomograms\Visual of Tomograms\Visual of Tomograms\Visual of Tomograms\bin\Debug\net8.0-windows\runtimes\win-x86\native\glfw3.dll
+C:\Users\User\Desktop\image processing\Visual of Tomograms\Visual of Tomograms\Visual of Tomograms\Visual of Tomograms\obj\Debug\net8.0-windows\Visual of Tomograms.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\image processing\Visual of Tomograms\Visual of Tomograms\Visual of Tomograms\Visual of Tomograms\obj\Debug\net8.0-windows\Visual_of_Tomograms.Form1.resources
+C:\Users\User\Desktop\image processing\Visual of Tomograms\Visual of Tomograms\Visual of Tomograms\Visual of Tomograms\obj\Debug\net8.0-windows\Visual of Tomograms.csproj.GenerateResource.cache
+C:\Users\User\Desktop\image processing\Visual of Tomograms\Visual of Tomograms\Visual of Tomograms\Visual of Tomograms\obj\Debug\net8.0-windows\Visual of Tomograms.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\image processing\Visual of Tomograms\Visual of Tomograms\Visual of Tomograms\Visual of Tomograms\obj\Debug\net8.0-windows\Visual of Tomograms.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\image processing\Visual of Tomograms\Visual of Tomograms\Visual of Tomograms\Visual of Tomograms\obj\Debug\net8.0-windows\Visual of Tomograms.AssemblyInfo.cs
+C:\Users\User\Desktop\image processing\Visual of Tomograms\Visual of Tomograms\Visual of Tomograms\Visual of Tomograms\obj\Debug\net8.0-windows\Visual of Tomograms.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\image processing\Visual of Tomograms\Visual of Tomograms\Visual of Tomograms\Visual of Tomograms\obj\Debug\net8.0-windows\Visual of Tomograms.sourcelink.json
+C:\Users\User\Desktop\image processing\Visual of Tomograms\Visual of Tomograms\Visual of Tomograms\Visual of Tomograms\obj\Debug\net8.0-windows\Visual o.ABAB8993.Up2Date
+C:\Users\User\Desktop\image processing\Visual of Tomograms\Visual of Tomograms\Visual of Tomograms\Visual of Tomograms\obj\Debug\net8.0-windows\Visual of Tomograms.dll
+C:\Users\User\Desktop\image processing\Visual of Tomograms\Visual of Tomograms\Visual of Tomograms\Visual of Tomograms\obj\Debug\net8.0-windows\refint\Visual of Tomograms.dll
+C:\Users\User\Desktop\image processing\Visual of Tomograms\Visual of Tomograms\Visual of Tomograms\Visual of Tomograms\obj\Debug\net8.0-windows\Visual of Tomograms.pdb
+C:\Users\User\Desktop\image processing\Visual of Tomograms\Visual of Tomograms\Visual of Tomograms\Visual of Tomograms\obj\Debug\net8.0-windows\Visual of Tomograms.genruntimeconfig.cache
+C:\Users\User\Desktop\image processing\Visual of Tomograms\Visual of Tomograms\Visual of Tomograms\Visual of Tomograms\obj\Debug\net8.0-windows\ref\Visual of Tomograms.dll
+C:\Users\User\Desktop\Computer Graphics\Visual of Tomograms\Visual of Tomograms\Visual of Tomograms\Visual of Tomograms\bin\Debug\net8.0-windows\Visual of Tomograms.exe
+C:\Users\User\Desktop\Computer Graphics\Visual of Tomograms\Visual of Tomograms\Visual of Tomograms\Visual of Tomograms\bin\Debug\net8.0-windows\Visual of Tomograms.deps.json
+C:\Users\User\Desktop\Computer Graphics\Visual of Tomograms\Visual of Tomograms\Visual of Tomograms\Visual of Tomograms\bin\Debug\net8.0-windows\Visual of Tomograms.runtimeconfig.json
+C:\Users\User\Desktop\Computer Graphics\Visual of Tomograms\Visual of Tomograms\Visual of Tomograms\Visual of Tomograms\bin\Debug\net8.0-windows\Visual of Tomograms.dll
+C:\Users\User\Desktop\Computer Graphics\Visual of Tomograms\Visual of Tomograms\Visual of Tomograms\Visual of Tomograms\bin\Debug\net8.0-windows\Visual of Tomograms.pdb
+C:\Users\User\Desktop\Computer Graphics\Visual of Tomograms\Visual of Tomograms\Visual of Tomograms\Visual of Tomograms\bin\Debug\net8.0-windows\OpenTK.Audio.OpenAL.dll
+C:\Users\User\Desktop\Computer Graphics\Visual of Tomograms\Visual of Tomograms\Visual of Tomograms\Visual of Tomograms\bin\Debug\net8.0-windows\OpenTK.Compute.dll
+C:\Users\User\Desktop\Computer Graphics\Visual of Tomograms\Visual of Tomograms\Visual of Tomograms\Visual of Tomograms\bin\Debug\net8.0-windows\OpenTK.Core.dll
+C:\Users\User\Desktop\Computer Graphics\Visual of Tomograms\Visual of Tomograms\Visual of Tomograms\Visual of Tomograms\bin\Debug\net8.0-windows\OpenTK.GLControl.dll
+C:\Users\User\Desktop\Computer Graphics\Visual of Tomograms\Visual of Tomograms\Visual of Tomograms\Visual of Tomograms\bin\Debug\net8.0-windows\OpenTK.Graphics.dll
+C:\Users\User\Desktop\Computer Graphics\Visual of Tomograms\Visual of Tomograms\Visual of Tomograms\Visual of Tomograms\bin\Debug\net8.0-windows\OpenTK.Input.dll
+C:\Users\User\Desktop\Computer Graphics\Visual of Tomograms\Visual of Tomograms\Visual of Tomograms\Visual of Tomograms\bin\Debug\net8.0-windows\OpenTK.Mathematics.dll
+C:\Users\User\Desktop\Computer Graphics\Visual of Tomograms\Visual of Tomograms\Visual of Tomograms\Visual of Tomograms\bin\Debug\net8.0-windows\OpenTK.Windowing.Common.dll
+C:\Users\User\Desktop\Computer Graphics\Visual of Tomograms\Visual of Tomograms\Visual of Tomograms\Visual of Tomograms\bin\Debug\net8.0-windows\OpenTK.Windowing.Desktop.dll
+C:\Users\User\Desktop\Computer Graphics\Visual of Tomograms\Visual of Tomograms\Visual of Tomograms\Visual of Tomograms\bin\Debug\net8.0-windows\OpenTK.Windowing.GraphicsLibraryFramework.dll
+C:\Users\User\Desktop\Computer Graphics\Visual of Tomograms\Visual of Tomograms\Visual of Tomograms\Visual of Tomograms\bin\Debug\net8.0-windows\runtimes\linux-x64\native\libglfw.so.3
+C:\Users\User\Desktop\Computer Graphics\Visual of Tomograms\Visual of Tomograms\Visual of Tomograms\Visual of Tomograms\bin\Debug\net8.0-windows\runtimes\osx-arm64\native\libglfw.3.dylib
+C:\Users\User\Desktop\Computer Graphics\Visual of Tomograms\Visual of Tomograms\Visual of Tomograms\Visual of Tomograms\bin\Debug\net8.0-windows\runtimes\osx-x64\native\libglfw.3.dylib
+C:\Users\User\Desktop\Computer Graphics\Visual of Tomograms\Visual of Tomograms\Visual of Tomograms\Visual of Tomograms\bin\Debug\net8.0-windows\runtimes\win-x64\native\glfw3.dll
+C:\Users\User\Desktop\Computer Graphics\Visual of Tomograms\Visual of Tomograms\Visual of Tomograms\Visual of Tomograms\bin\Debug\net8.0-windows\runtimes\win-x86\native\glfw3.dll
+C:\Users\User\Desktop\Computer Graphics\Visual of Tomograms\Visual of Tomograms\Visual of Tomograms\Visual of Tomograms\obj\Debug\net8.0-windows\Visual of Tomograms.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\Computer Graphics\Visual of Tomograms\Visual of Tomograms\Visual of Tomograms\Visual of Tomograms\obj\Debug\net8.0-windows\Visual_of_Tomograms.Form1.resources
+C:\Users\User\Desktop\Computer Graphics\Visual of Tomograms\Visual of Tomograms\Visual of Tomograms\Visual of Tomograms\obj\Debug\net8.0-windows\Visual of Tomograms.csproj.GenerateResource.cache
+C:\Users\User\Desktop\Computer Graphics\Visual of Tomograms\Visual of Tomograms\Visual of Tomograms\Visual of Tomograms\obj\Debug\net8.0-windows\Visual of Tomograms.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\Computer Graphics\Visual of Tomograms\Visual of Tomograms\Visual of Tomograms\Visual of Tomograms\obj\Debug\net8.0-windows\Visual of Tomograms.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\Computer Graphics\Visual of Tomograms\Visual of Tomograms\Visual of Tomograms\Visual of Tomograms\obj\Debug\net8.0-windows\Visual of Tomograms.AssemblyInfo.cs
+C:\Users\User\Desktop\Computer Graphics\Visual of Tomograms\Visual of Tomograms\Visual of Tomograms\Visual of Tomograms\obj\Debug\net8.0-windows\Visual of Tomograms.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\Computer Graphics\Visual of Tomograms\Visual of Tomograms\Visual of Tomograms\Visual of Tomograms\obj\Debug\net8.0-windows\Visual of Tomograms.sourcelink.json
+C:\Users\User\Desktop\Computer Graphics\Visual of Tomograms\Visual of Tomograms\Visual of Tomograms\Visual of Tomograms\obj\Debug\net8.0-windows\Visual o.ABAB8993.Up2Date
+C:\Users\User\Desktop\Computer Graphics\Visual of Tomograms\Visual of Tomograms\Visual of Tomograms\Visual of Tomograms\obj\Debug\net8.0-windows\Visual of Tomograms.dll
+C:\Users\User\Desktop\Computer Graphics\Visual of Tomograms\Visual of Tomograms\Visual of Tomograms\Visual of Tomograms\obj\Debug\net8.0-windows\refint\Visual of Tomograms.dll
+C:\Users\User\Desktop\Computer Graphics\Visual of Tomograms\Visual of Tomograms\Visual of Tomograms\Visual of Tomograms\obj\Debug\net8.0-windows\Visual of Tomograms.pdb
+C:\Users\User\Desktop\Computer Graphics\Visual of Tomograms\Visual of Tomograms\Visual of Tomograms\Visual of Tomograms\obj\Debug\net8.0-windows\Visual of Tomograms.genruntimeconfig.cache
+C:\Users\User\Desktop\Computer Graphics\Visual of Tomograms\Visual of Tomograms\Visual of Tomograms\Visual of Tomograms\obj\Debug\net8.0-windows\ref\Visual of Tomograms.dll

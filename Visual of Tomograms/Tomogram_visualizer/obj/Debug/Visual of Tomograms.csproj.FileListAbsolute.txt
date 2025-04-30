@@ -1,0 +1,19 @@
+C:\Users\User\Desktop\Computer Graphics\Visual of Tomograms\Tomogram_visualizer\bin\Debug\Viderman_tomogram_visualizer.exe.config
+C:\Users\User\Desktop\Computer Graphics\Visual of Tomograms\Tomogram_visualizer\bin\Debug\Viderman_tomogram_visualizer.exe
+C:\Users\User\Desktop\Computer Graphics\Visual of Tomograms\Tomogram_visualizer\bin\Debug\Viderman_tomogram_visualizer.pdb
+C:\Users\User\Desktop\Computer Graphics\Visual of Tomograms\Tomogram_visualizer\bin\Debug\OpenTK.Compatibility.dll
+C:\Users\User\Desktop\Computer Graphics\Visual of Tomograms\Tomogram_visualizer\bin\Debug\OpenTK.dll
+C:\Users\User\Desktop\Computer Graphics\Visual of Tomograms\Tomogram_visualizer\bin\Debug\OpenTK.GLControl.dll
+C:\Users\User\Desktop\Computer Graphics\Visual of Tomograms\Tomogram_visualizer\bin\Debug\OpenTK.pdb
+C:\Users\User\Desktop\Computer Graphics\Visual of Tomograms\Tomogram_visualizer\bin\Debug\OpenTK.xml
+C:\Users\User\Desktop\Computer Graphics\Visual of Tomograms\Tomogram_visualizer\bin\Debug\OpenTK.dll.config
+C:\Users\User\Desktop\Computer Graphics\Visual of Tomograms\Tomogram_visualizer\bin\Debug\OpenTK.Compatibility.dll.config
+C:\Users\User\Desktop\Computer Graphics\Visual of Tomograms\Tomogram_visualizer\bin\Debug\OpenTK.GLControl.xml
+C:\Users\User\Desktop\Computer Graphics\Visual of Tomograms\Tomogram_visualizer\obj\Debug\Visual of Tomograms.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\Computer Graphics\Visual of Tomograms\Tomogram_visualizer\obj\Debug\Tomogram_visualizer.Form1.resources
+C:\Users\User\Desktop\Computer Graphics\Visual of Tomograms\Tomogram_visualizer\obj\Debug\Viderman_tomogram_visualizer.Properties.Resources.resources
+C:\Users\User\Desktop\Computer Graphics\Visual of Tomograms\Tomogram_visualizer\obj\Debug\Visual of Tomograms.csproj.GenerateResource.cache
+C:\Users\User\Desktop\Computer Graphics\Visual of Tomograms\Tomogram_visualizer\obj\Debug\Visual of Tomograms.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\Computer Graphics\Visual of Tomograms\Tomogram_visualizer\obj\Debug\Visual o.ABAB8993.Up2Date
+C:\Users\User\Desktop\Computer Graphics\Visual of Tomograms\Tomogram_visualizer\obj\Debug\Viderman_tomogram_visualizer.exe
+C:\Users\User\Desktop\Computer Graphics\Visual of Tomograms\Tomogram_visualizer\obj\Debug\Viderman_tomogram_visualizer.pdb
