@@ -1,0 +1,16 @@
+C:\Users\Серго\Desktop\source\github\KG\Work_3\bin\Debug\Work_3.exe.config
+C:\Users\Серго\Desktop\source\github\KG\Work_3\bin\Debug\Work_3.exe
+C:\Users\Серго\Desktop\source\github\KG\Work_3\bin\Debug\Work_3.pdb
+C:\Users\Серго\Desktop\source\github\KG\Work_3\bin\Debug\OpenTK.dll
+C:\Users\Серго\Desktop\source\github\KG\Work_3\bin\Debug\OpenTK.GLControl.dll
+C:\Users\Серго\Desktop\source\github\KG\Work_3\bin\Debug\OpenTK.pdb
+C:\Users\Серго\Desktop\source\github\KG\Work_3\bin\Debug\OpenTK.xml
+C:\Users\Серго\Desktop\source\github\KG\Work_3\bin\Debug\OpenTK.GLControl.pdb
+C:\Users\Серго\Desktop\source\github\KG\Work_3\bin\Debug\OpenTK.GLControl.xml
+C:\Users\Серго\Desktop\source\github\KG\Work_3\obj\Debug\Work_3.csproj.AssemblyReference.cache
+C:\Users\Серго\Desktop\source\github\KG\Work_3\obj\Debug\Work_3.Properties.Resources.resources
+C:\Users\Серго\Desktop\source\github\KG\Work_3\obj\Debug\Work_3.csproj.GenerateResource.cache
+C:\Users\Серго\Desktop\source\github\KG\Work_3\obj\Debug\Work_3.csproj.CoreCompileInputs.cache
+C:\Users\Серго\Desktop\source\github\KG\Work_3\obj\Debug\Work_3.csproj.Up2Date
+C:\Users\Серго\Desktop\source\github\KG\Work_3\obj\Debug\Work_3.exe
+C:\Users\Серго\Desktop\source\github\KG\Work_3\obj\Debug\Work_3.pdb
